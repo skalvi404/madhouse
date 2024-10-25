@@ -127,6 +127,26 @@
     }
   }
 }
+
+@media screen and (min-width: 1401px) {
+  .slider_2 {
+    /* Specify default or large screen styling for .slider_2 here */
+    width: auto; /* or any desired value */
+
+    &.type_2 {
+      .swiper-slide {
+        width: auto; /* adjust width as needed */
+        margin: 0; /* reset margin if necessary */
+      }
+    }
+    
+    .swiper-slide {
+      width: auto; /* reset or adjust width for larger screens */
+    }
+  }
+}
+
+
 @media screen and (max-width: 991px) {
   .hero_slider_controller_1 {
     left: 75%;
